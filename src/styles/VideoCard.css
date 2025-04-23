@@ -1,0 +1,73 @@
+
+
+/* Video Card */
+.video-card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(133, 180, 222, 0.624); 
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+    padding: 15px;
+    background: #f9f9f9;
+    
+  }
+  
+  .video-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(64, 108, 171, 0.5); 
+  }
+  
+  .video-card-thumbnail iframe {
+    width: 100%;
+    height: auto; 
+    border: none;
+    border-radius: 12px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    display: block;
+    
+  }
+  
+  .video-card-info {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    transition: opacity 0.3s ease;
+    background: #f9f9f9; 
+    border-radius: 0 0 12px 12px; 
+    text-align: left;
+  }
+  
+  .video-card:hover .video-card-info {
+    opacity: 1; 
+  }
+  
+  .video-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .video-card-description {
+    font-size: 1rem; 
+    margin: 0.5rem 0 0;
+    color: #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  
+  
+  
+  
+  

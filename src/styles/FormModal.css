@@ -1,0 +1,104 @@
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  
+  .modal {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 12px 24px rgba(64, 108, 171, 0.5);
+    position: relative;
+    animation: fadeIn 0.25s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal h2 {
+      color:#294d98;
+  }
+  
+  .video-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .video-form label {
+    font-weight: bold;
+    color:#000;
+    align-self: flex-start;
+  }
+  
+  .video-form input,
+  .video-form textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: #000;
+  }
+  
+  .video-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .video-form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .submit-button {
+    padding: 10px 15px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1aa34a;
+  }
+  
+  .video-form-close-button {
+    align-self: flex-start;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .video-form-close-button:hover {
+    background-color: #444
+  }
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
