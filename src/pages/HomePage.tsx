@@ -69,7 +69,7 @@ export function HomePage() {
     return (
         <div className="homepage">
             <header className="homepage-header">
-                <h1>Discover Videos</h1>
+                <h1>Discover Educational Videos</h1>
                 <button className="add-video-button" onClick={() => setModalOpen(true)}>
                     Add Video
                 </button>
