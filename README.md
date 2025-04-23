@@ -3,8 +3,7 @@
 Built this react app using vite
 
 To run locally:
-git clone
-cd educational-video-player
+git clone https://github.com/kryan39/educational-video-player.git
 npm install
 npm run dev
 
