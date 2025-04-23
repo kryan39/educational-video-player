@@ -34,8 +34,10 @@ I have implemented:
 
 
 
+<img width="1546" alt="Screenshot 2025-04-23 at 7 14 38 PM" src="https://github.com/user-attachments/assets/0be8e4b2-3b30-46f0-a83c-8ed3a706f776" />
 
 
+<img width="1609" alt="Screenshot 2025-04-23 at 7 15 34 PM" src="https://github.com/user-attachments/assets/1f88b264-b494-4e31-ad00-1760c1041248" />
 
 
 
